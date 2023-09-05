@@ -1,0 +1,61 @@
+# created by fftool
+
+units real
+boundary p p p
+
+atom_style full
+bond_style harmonic
+angle_style harmonic
+dihedral_style charmm
+improper_style cvff
+
+special_bonds amber
+
+pair_style hybrid/overlay lj/cut/coul/long 12.0 12.0 coul/long/cs 12.0 thole 2.600 12.0
+pair_modify tail yes
+kspace_style ewald 1.0e-5
+
+read_data initial.data extra/special/per/atom 3
+#read_data data-p.lmp extra/special/per/atom 3
+include pair-sc.lmp
+include pair-drude.lmp
+
+# convenient atom groups (for shake, thermostats...)
+group ATOMS type 1 2 3 4 5 6 7 8 9 10
+group CORES type 1 2 5 6 9 10 
+group DRUDES type 11 12 13 14 15 16 
+
+# identify each atom type: [C]ore, [D]rude, [N]on-polarizable
+fix DRUDE all drude C C N N C C N N C C D D D D D D 
+
+#minimize 1.0e-4 1.0e-6 100 1000
+#reset_timestep 0
+
+#fix SHAKE ATOMS shake 0.0001 20 0 b 5 6 7
+
+neighbor 2.0 bin
+neigh_modify delay 0 every 1 check yes
+
+timestep 1
+
+variable TK equal 300.0
+variable TDRUDE equal 1.0
+variable PBAR equal 1.0
+
+comm_modify vel yes
+velocity ATOMS create ${TK} 12345
+
+#fix TSTAT all tgnvt/drude temp ${TK} ${TK} 100 ${TDRUDE} 20
+fix TSTAT all tgnpt/drude temp ${TK} ${TK} 100 ${TDRUDE} 20 iso ${PBAR} ${PBAR} 1000
+
+thermo_style custom step time cpu etotal ke pe ebond eangle evdwl ecoul elong &
+  press vol density f_TSTAT[1] f_TSTAT[2] f_TSTAT[3]
+thermo 2500
+
+dump TRAJ all custom 50000 dump.lammpstrj id mol type element q x y z
+dump_modify TRAJ element C C H H N C H H B F D D D D D D & 
+ sort id
+
+run 10000000
+
+write_data restart.data

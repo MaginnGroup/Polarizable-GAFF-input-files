@@ -1,0 +1,45 @@
+pair_coeff    1    1 lj/cut/coul/long     0.169999     3.250000  # n4 c4c n4 c4c
+pair_coeff    1    2 lj/cut/coul/long     0.136374     3.325000  # n4 c4c c3 c4c
+pair_coeff    1    3 lj/cut/coul/long     0.051664     2.605000  # n4 c4c Hx c4c
+pair_coeff    1    4 lj/cut/coul/long     0.051664     2.950000  # n4 c4c Hc c4c
+pair_coeff    1    5 lj/cut/coul/long     0.094230     3.325000  # n4 c4c c3a c4c ~
+pair_coeff    1    6 lj/cut/coul/long     0.035698     2.950000  # n4 c4c Hca c4c ~
+pair_coeff    1    7 lj/cut/coul/long     0.088879     3.250000  # n4 c4c N3A DCA ~
+pair_coeff    1    8 lj/cut/coul/long     0.098783     3.325000  # n4 c4c CZA DCA ~
+pair_coeff    1    9 lj/cut/coul/long     0.088879     3.250000  # n4 c4c NZA DCA ~
+pair_coeff    2    2 lj/cut/coul/long     0.109400     3.400000  # c3 c4c c3 c4c
+pair_coeff    2    3 lj/cut/coul/long     0.041445     2.680000  # c3 c4c Hx c4c
+pair_coeff    2    4 lj/cut/coul/long     0.041445     3.025000  # c3 c4c Hc c4c
+pair_coeff    2    5 lj/cut/coul/long     0.075591     3.400000  # c3 c4c c3a c4c ~
+pair_coeff    2    6 lj/cut/coul/long     0.028637     3.025000  # c3 c4c Hca c4c ~
+pair_coeff    2    7 lj/cut/coul/long     0.071299     3.325000  # c3 c4c N3A DCA ~
+pair_coeff    2    8 lj/cut/coul/long     0.079244     3.400000  # c3 c4c CZA DCA ~
+pair_coeff    2    9 lj/cut/coul/long     0.071299     3.325000  # c3 c4c NZA DCA ~
+pair_coeff    3    3 lj/cut/coul/long     0.015701     1.960000  # Hx c4c Hx c4c
+pair_coeff    3    4 lj/cut/coul/long     0.015701     2.305000  # Hx c4c Hc c4c
+pair_coeff    3    5 lj/cut/coul/long     0.028637     2.680000  # Hx c4c c3a c4c ~
+pair_coeff    3    6 lj/cut/coul/long     0.010849     2.305000  # Hx c4c Hca c4c ~
+pair_coeff    3    7 lj/cut/coul/long     0.027011     2.605000  # Hx c4c N3A DCA ~
+pair_coeff    3    8 lj/cut/coul/long     0.030021     2.680000  # Hx c4c CZA DCA ~
+pair_coeff    3    9 lj/cut/coul/long     0.027011     2.605000  # Hx c4c NZA DCA ~
+pair_coeff    4    4 lj/cut/coul/long     0.015701     2.650000  # Hc c4c Hc c4c
+pair_coeff    4    5 lj/cut/coul/long     0.028637     3.025000  # Hc c4c c3a c4c ~
+pair_coeff    4    6 lj/cut/coul/long     0.010849     2.650000  # Hc c4c Hca c4c ~
+pair_coeff    4    7 lj/cut/coul/long     0.027011     2.950000  # Hc c4c N3A DCA ~
+pair_coeff    4    8 lj/cut/coul/long     0.030021     3.025000  # Hc c4c CZA DCA ~
+pair_coeff    4    9 lj/cut/coul/long     0.027011     2.950000  # Hc c4c NZA DCA ~
+pair_coeff    5    5 lj/cut/coul/long     0.109400     3.400000  # c3a c4c c3a c4c
+pair_coeff    5    6 lj/cut/coul/long     0.041445     3.025000  # c3a c4c Hca c4c
+pair_coeff    5    7 lj/cut/coul/long     0.097616     3.325000  # c3a c4c N3A DCA ~
+pair_coeff    5    8 lj/cut/coul/long     0.108494     3.400000  # c3a c4c CZA DCA ~
+pair_coeff    5    9 lj/cut/coul/long     0.097616     3.325000  # c3a c4c NZA DCA ~
+pair_coeff    6    6 lj/cut/coul/long     0.015701     2.650000  # Hca c4c Hca c4c
+pair_coeff    6    7 lj/cut/coul/long     0.036981     2.950000  # Hca c4c N3A DCA ~
+pair_coeff    6    8 lj/cut/coul/long     0.041102     3.025000  # Hca c4c CZA DCA ~
+pair_coeff    6    9 lj/cut/coul/long     0.036981     2.950000  # Hca c4c NZA DCA ~
+pair_coeff    7    7 lj/cut/coul/long     0.169999     3.250000  # N3A DCA N3A DCA
+pair_coeff    7    8 lj/cut/coul/long     0.188944     3.325000  # N3A DCA CZA DCA
+pair_coeff    7    9 lj/cut/coul/long     0.169999     3.250000  # N3A DCA NZA DCA
+pair_coeff    8    8 lj/cut/coul/long     0.210000     3.400000  # CZA DCA CZA DCA
+pair_coeff    8    9 lj/cut/coul/long     0.188944     3.325000  # CZA DCA NZA DCA
+pair_coeff    9    9 lj/cut/coul/long     0.169999     3.250000  # NZA DCA NZA DCA

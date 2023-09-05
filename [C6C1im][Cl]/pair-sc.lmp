@@ -1,0 +1,66 @@
+pair_coeff    1    1 lj/cut/coul/long     0.169999     3.250000  # na HMI na HMI
+pair_coeff    1    2 lj/cut/coul/long     0.120913     3.325000  # na HMI cc HMI
+pair_coeff    1    3 lj/cut/coul/long     0.120913     3.325000  # na HMI cd HMI
+pair_coeff    1    4 lj/cut/coul/long     0.050496     2.835500  # na HMI h5 HMI
+pair_coeff    1    5 lj/cut/coul/long     0.050496     2.880500  # na HMI h4 HMI
+pair_coeff    1    6 lj/cut/coul/long     0.136374     3.325000  # na HMI c3 HMI
+pair_coeff    1    7 lj/cut/coul/long     0.051664     2.860500  # na HMI h1 HMI
+pair_coeff    1    8 lj/cut/coul/long     0.051664     2.950000  # na HMI hc HMI
+pair_coeff    1    9 lj/cut/coul/long     0.106518     3.325000  # na HMI ac3 HMI ~
+pair_coeff    1   10 lj/cut/coul/long     0.040353     2.950000  # na HMI ahc HMI ~
+pair_coeff    1   11 lj/cut/coul/long     0.080209     3.510000  # na HMI cl CL ~
+pair_coeff    2    2 lj/cut/coul/long     0.086000     3.400000  # cc HMI cc HMI
+pair_coeff    2    3 lj/cut/coul/long     0.086000     3.400000  # cc HMI cd HMI
+pair_coeff    2    4 lj/cut/coul/long     0.035916     2.910500  # cc HMI h5 HMI
+pair_coeff    2    5 lj/cut/coul/long     0.035916     2.955500  # cc HMI h4 HMI
+pair_coeff    2    6 lj/cut/coul/long     0.096997     3.400000  # cc HMI c3 HMI
+pair_coeff    2    7 lj/cut/coul/long     0.036746     2.935500  # cc HMI h1 HMI
+pair_coeff    2    8 lj/cut/coul/long     0.036746     3.025000  # cc HMI hc HMI
+pair_coeff    2    9 lj/cut/coul/long     0.075761     3.400000  # cc HMI ac3 HMI ~
+pair_coeff    2   10 lj/cut/coul/long     0.028701     3.025000  # cc HMI ahc HMI ~
+pair_coeff    2   11 lj/cut/coul/long     0.057049     3.585000  # cc HMI cl CL ~
+pair_coeff    3    3 lj/cut/coul/long     0.086000     3.400000  # cd HMI cd HMI
+pair_coeff    3    4 lj/cut/coul/long     0.035916     2.910500  # cd HMI h5 HMI
+pair_coeff    3    5 lj/cut/coul/long     0.035916     2.955500  # cd HMI h4 HMI
+pair_coeff    3    6 lj/cut/coul/long     0.096997     3.400000  # cd HMI c3 HMI
+pair_coeff    3    7 lj/cut/coul/long     0.036746     2.935500  # cd HMI h1 HMI
+pair_coeff    3    8 lj/cut/coul/long     0.036746     3.025000  # cd HMI hc HMI
+pair_coeff    3    9 lj/cut/coul/long     0.075761     3.400000  # cd HMI ac3 HMI ~
+pair_coeff    3   10 lj/cut/coul/long     0.028701     3.025000  # cd HMI ahc HMI ~
+pair_coeff    3   11 lj/cut/coul/long     0.057049     3.585000  # cd HMI cl CL ~
+pair_coeff    4    4 lj/cut/coul/long     0.014999     2.421000  # h5 HMI h5 HMI
+pair_coeff    4    5 lj/cut/coul/long     0.014999     2.466000  # h5 HMI h4 HMI
+pair_coeff    4    6 lj/cut/coul/long     0.040508     2.910500  # h5 HMI c3 HMI
+pair_coeff    4    7 lj/cut/coul/long     0.015346     2.446000  # h5 HMI h1 HMI
+pair_coeff    4    8 lj/cut/coul/long     0.015346     2.535500  # h5 HMI hc HMI
+pair_coeff    4    9 lj/cut/coul/long     0.031640     2.910500  # h5 HMI ac3 HMI ~
+pair_coeff    4   10 lj/cut/coul/long     0.011986     2.535500  # h5 HMI ahc HMI ~
+pair_coeff    4   11 lj/cut/coul/long     0.023825     3.095500  # h5 HMI cl CL ~
+pair_coeff    5    5 lj/cut/coul/long     0.014999     2.511000  # h4 HMI h4 HMI
+pair_coeff    5    6 lj/cut/coul/long     0.040508     2.955500  # h4 HMI c3 HMI
+pair_coeff    5    7 lj/cut/coul/long     0.015346     2.491000  # h4 HMI h1 HMI
+pair_coeff    5    8 lj/cut/coul/long     0.015346     2.580500  # h4 HMI hc HMI
+pair_coeff    5    9 lj/cut/coul/long     0.031640     2.955500  # h4 HMI ac3 HMI ~
+pair_coeff    5   10 lj/cut/coul/long     0.011986     2.580500  # h4 HMI ahc HMI ~
+pair_coeff    5   11 lj/cut/coul/long     0.023825     3.140500  # h4 HMI cl CL ~
+pair_coeff    6    6 lj/cut/coul/long     0.109400     3.400000  # c3 HMI c3 HMI
+pair_coeff    6    7 lj/cut/coul/long     0.041445     2.935500  # c3 HMI h1 HMI
+pair_coeff    6    8 lj/cut/coul/long     0.041445     3.025000  # c3 HMI hc HMI
+pair_coeff    6    9 lj/cut/coul/long     0.085449     3.400000  # c3 HMI ac3 HMI ~
+pair_coeff    6   10 lj/cut/coul/long     0.032371     3.025000  # c3 HMI ahc HMI ~
+pair_coeff    6   11 lj/cut/coul/long     0.064344     3.585000  # c3 HMI cl CL ~
+pair_coeff    7    7 lj/cut/coul/long     0.015701     2.471000  # h1 HMI h1 HMI
+pair_coeff    7    8 lj/cut/coul/long     0.015701     2.560500  # h1 HMI hc HMI
+pair_coeff    7    9 lj/cut/coul/long     0.032371     2.935500  # h1 HMI ac3 HMI ~
+pair_coeff    7   10 lj/cut/coul/long     0.012263     2.560500  # h1 HMI ahc HMI ~
+pair_coeff    7   11 lj/cut/coul/long     0.024376     3.120500  # h1 HMI cl CL ~
+pair_coeff    8    8 lj/cut/coul/long     0.015701     2.650000  # hc HMI hc HMI
+pair_coeff    8    9 lj/cut/coul/long     0.032371     3.025000  # hc HMI ac3 HMI ~
+pair_coeff    8   10 lj/cut/coul/long     0.012263     2.650000  # hc HMI ahc HMI ~
+pair_coeff    8   11 lj/cut/coul/long     0.024376     3.210000  # hc HMI cl CL ~
+pair_coeff    9    9 lj/cut/coul/long     0.109400     3.400000  # ac3 HMI ac3 HMI
+pair_coeff    9   10 lj/cut/coul/long     0.041445     3.025000  # ac3 HMI ahc HMI
+pair_coeff    9   11 lj/cut/coul/long     0.078041     3.585000  # ac3 HMI cl CL ~
+pair_coeff   10   10 lj/cut/coul/long     0.015701     2.650000  # ahc HMI ahc HMI
+pair_coeff   10   11 lj/cut/coul/long     0.029565     3.210000  # ahc HMI cl CL ~
+pair_coeff   11   11 lj/cut/coul/long     0.148305     3.770000  # cl CL cl CL
