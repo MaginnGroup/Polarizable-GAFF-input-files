@@ -1,0 +1,86 @@
+hmimcl
+scaled LJ parameters written to  pair-sc.lmp
+Epsilon LJ coefficients were scaled by k_pred parameter. Changes are marked with '~'.
+Sigma LJ coefficients were not scaled.
+------------------------------------------
+Fragment_i   Fragment_j   k_sapt    k_pred
+c2c1im       c4h10          0.76      0.78
+c2c1im       cl                -      0.51
+c4h10        c4h10          0.94      1.00
+c4h10        cl                -      0.61
+------------------------------------------
+
+bmimbf4
+scaled LJ parameters written to  pair-sc.lmp
+Epsilon LJ coefficients were scaled by k_pred parameter. Changes are marked with '~'.
+Sigma LJ coefficients were not scaled.
+------------------------------------------
+Fragment_i   Fragment_j   k_sapt    k_pred
+c2c1im       c4h10          0.76      0.78
+c2c1im       bf4            0.52      0.50
+c4h10        c4h10          0.94      1.00
+c4h10        bf4            0.51      0.49
+------------------------------------------
+
+bmimpf6
+scaled LJ parameters written to  pair-sc.lmp
+Epsilon LJ coefficients were scaled by k_pred parameter. Changes are marked with '~'.
+Sigma LJ coefficients were not scaled.
+------------------------------------------
+Fragment_i   Fragment_j   k_sapt    k_pred
+c2c1im       c4h10          0.76      0.78
+c2c1im       pf6               -      0.44
+c4h10        c4h10          0.94      1.00
+c4h10        pf6               -      0.52
+------------------------------------------
+
+emimdca
+scaled LJ parameters written to  pair-sc.lmp
+Epsilon LJ coefficients were scaled by k_pred parameter. Changes are marked with '~'.
+Sigma LJ coefficients were not scaled.
+------------------------------------------
+Fragment_i   Fragment_j   k_sapt    k_pred
+c2c1im       dca            0.61      0.68
+------------------------------------------
+
+emimtfsi
+scaled LJ parameters written to  pair-sc.lmp
+Epsilon LJ coefficients were scaled by k_pred parameter. Changes are marked with '~'.
+Sigma LJ coefficients were not scaled.
+------------------------------------------
+Fragment_i   Fragment_j   k_sapt    k_pred
+c2c1im       ntf2           0.65      0.55
+------------------------------------------
+
+emimbf4
+scaled LJ parameters written to  pair-sc.lmp
+Epsilon LJ coefficients were scaled by k_pred parameter. Changes are marked with '~'.
+Sigma LJ coefficients were not scaled.
+------------------------------------------
+Fragment_i   Fragment_j   k_sapt    k_pred
+c2c1im       bf4            0.52      0.50
+------------------------------------------
+
+c4c1pyrdca
+scaled LJ parameters written to  pair-sc.lmp
+Epsilon LJ coefficients were scaled by k_pred parameter. Changes are marked with '~'.
+Sigma LJ coefficients were not scaled.
+------------------------------------------
+Fragment_i   Fragment_j   k_sapt    k_pred
+c1c1pyrr     c4h10          0.67      0.69
+c1c1pyrr     dca            0.53      0.52
+c4h10        c4h10          0.94      1.00
+c4h10        dca            0.69      0.72
+------------------------------------------
+
+c4c1pyrtfsi
+scaled LJ parameters written to  pair-sc.lmp
+Epsilon LJ coefficients were scaled by k_pred parameter. Changes are marked with '~'.
+Sigma LJ coefficients were not scaled.
+------------------------------------------
+Fragment_i   Fragment_j   k_sapt    k_pred
+c1c1pyrr     c4h10          0.67      0.69
+c1c1pyrr     ntf2           0.54      0.50
+c4h10        c4h10          0.94      1.00
+c4h10        ntf2           0.77      0.69
+------------------------------------------

@@ -1,0 +1,39 @@
+# units: e, Å, D
+
+MONOMERS
+# name     q/e        mu/D
+# cations
+c2c1im       1.0      1.1558
+c1c1pyrr     1.0      1.6413
+# anions 
+dca         -1.0      0.8874
+bf4         -1.0      0.0000
+ntf2        -1.0      4.0070
+pf6         -1.0      0.0000
+cl          -1.0      0.0000
+# neutral    
+C4H10        0.0      0.0000
+C6H14        0.0      0.0000
+
+DIMERS
+# m1        m2    r_COM/Å  k_sapt
+# cation-anion
+c2c1im     dca     2.935    0.61
+c2c1im     ntf2    4.314    0.65
+c2c1im     bf4     3.088    0.52
+c2c1im     pf6     4.183
+c2c1im     cl      3.511 
+c1c1pyrr   dca     4.094    0.53
+c1c1pyrr   ntf2    4.725    0.54
+# cation-neutral
+c2c1im     C4H10   3.613    0.76
+c2c1im     C6H14   3.992    0.74
+c1c1pyrr   C4H10   4.429    0.67
+# neutral-anion
+C4H10      dca     3.542    0.69
+C4H10      ntf2    4.436    0.77
+C4H10      bf4     3.531    0.51
+C4H10      cl      3.303
+C4H10      pf6     4.279
+# neutral-neutral
+C4H10      C4H10   4.170    0.94
